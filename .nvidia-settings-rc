@@ -1,0 +1,86 @@
+#
+# /home/a/.nvidia-settings-rc
+#
+# Configuration file for nvidia-settings - the NVIDIA X Server Settings utility
+# Generated on Fri Apr 25 12:03:21 2014
+#
+
+# ConfigProperties:
+
+RcFileLocale = C
+ToolTips = Yes
+DisplayStatusBar = Yes
+SliderTextEntries = Yes
+IncludeDisplayNameInConfigFile = Yes
+ShowQuitDialog = Yes
+UpdateRulesOnProfileNameChange = Yes
+Timer = Memory_Used_(GPU_0),Yes,3000
+Timer = Thermal_Monitor_(GPU_0),Yes,1000
+Timer = PowerMizer_Monitor_(GPU_0),Yes,1000
+
+# Attributes:
+
+holmes:0.0/SyncToVBlank=1
+holmes:0.0/LogAniso=0
+holmes:0.0/FSAA=0
+holmes:0.0/TextureSharpen=1
+holmes:0.0/TextureClamping=1
+holmes:0.0/FXAA=0
+holmes:0.0/AllowFlipping=1
+holmes:0.0/FSAAAppControlled=0
+holmes:0.0/LogAnisoAppControlled=1
+holmes:0.0/OpenGLImageSettings=1
+holmes:0.0/FSAAAppEnhanced=1
+holmes:0.0/XVideoSyncToDisplayID=DP-3
+holmes:0[DPY:VGA-0]/Dithering=0
+holmes:0[DPY:VGA-0]/DitheringMode=0
+holmes:0[DPY:VGA-0]/DitheringDepth=0
+holmes:0[DPY:VGA-0]/SynchronousPaletteUpdates=0
+holmes:0[DPY:LVDS-0]/RedBrightness=0.000000
+holmes:0[DPY:LVDS-0]/GreenBrightness=0.000000
+holmes:0[DPY:LVDS-0]/BlueBrightness=0.000000
+holmes:0[DPY:LVDS-0]/RedContrast=0.000000
+holmes:0[DPY:LVDS-0]/GreenContrast=0.000000
+holmes:0[DPY:LVDS-0]/BlueContrast=0.000000
+holmes:0[DPY:LVDS-0]/RedGamma=1.000000
+holmes:0[DPY:LVDS-0]/GreenGamma=1.000000
+holmes:0[DPY:LVDS-0]/BlueGamma=1.000000
+holmes:0[DPY:LVDS-0]/Dithering=0
+holmes:0[DPY:LVDS-0]/DitheringMode=0
+holmes:0[DPY:LVDS-0]/DitheringDepth=0
+holmes:0[DPY:LVDS-0]/DigitalVibrance=0
+holmes:0[DPY:LVDS-0]/ColorSpace=0
+holmes:0[DPY:LVDS-0]/ColorRange=0
+holmes:0[DPY:LVDS-0]/SynchronousPaletteUpdates=0
+holmes:0[DPY:DP-0]/Dithering=0
+holmes:0[DPY:DP-0]/DitheringMode=0
+holmes:0[DPY:DP-0]/DitheringDepth=0
+holmes:0[DPY:DP-0]/SynchronousPaletteUpdates=0
+holmes:0[DPY:DP-1]/Dithering=0
+holmes:0[DPY:DP-1]/DitheringMode=0
+holmes:0[DPY:DP-1]/DitheringDepth=0
+holmes:0[DPY:DP-1]/SynchronousPaletteUpdates=0
+holmes:0[DPY:HDMI-0]/Dithering=0
+holmes:0[DPY:HDMI-0]/DitheringMode=0
+holmes:0[DPY:HDMI-0]/DitheringDepth=0
+holmes:0[DPY:HDMI-0]/SynchronousPaletteUpdates=0
+holmes:0[DPY:DP-2]/Dithering=0
+holmes:0[DPY:DP-2]/DitheringMode=0
+holmes:0[DPY:DP-2]/DitheringDepth=0
+holmes:0[DPY:DP-2]/SynchronousPaletteUpdates=0
+holmes:0[DPY:DP-3]/RedBrightness=0.000000
+holmes:0[DPY:DP-3]/GreenBrightness=0.000000
+holmes:0[DPY:DP-3]/BlueBrightness=0.000000
+holmes:0[DPY:DP-3]/RedContrast=0.000000
+holmes:0[DPY:DP-3]/GreenContrast=0.000000
+holmes:0[DPY:DP-3]/BlueContrast=0.000000
+holmes:0[DPY:DP-3]/RedGamma=1.000000
+holmes:0[DPY:DP-3]/GreenGamma=1.000000
+holmes:0[DPY:DP-3]/BlueGamma=1.000000
+holmes:0[DPY:DP-3]/Dithering=0
+holmes:0[DPY:DP-3]/DitheringMode=0
+holmes:0[DPY:DP-3]/DitheringDepth=0
+holmes:0[DPY:DP-3]/DigitalVibrance=30
+holmes:0[DPY:DP-3]/ColorSpace=0
+holmes:0[DPY:DP-3]/ColorRange=0
+holmes:0[DPY:DP-3]/SynchronousPaletteUpdates=0
