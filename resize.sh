@@ -27,3 +27,10 @@ res2() {
   # echo "rows:$rows"
   stty cols "$cols" rows "$rows"
 }
+
+[[ $(tty) == /dev/ttyS0 ]] && trap res2 DEBUG
+
+console_fast() {
+  echo "setting console to 921600 baud. increase speed in terminal program"
+  stty -F /dev/ttyS0 921600
+}
